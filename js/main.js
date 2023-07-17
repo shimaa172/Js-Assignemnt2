@@ -13,4 +13,3 @@ function randomText(){
     document.getElementById("quote") .innerHTML = text[num] 
 
 }
-randomText()
