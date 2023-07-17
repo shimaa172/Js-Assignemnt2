@@ -6,8 +6,6 @@ function randomText(){
 
     var num = Math.floor( Math.random() * userNames.length )
     
-    console.log(num)
-    
     document.getElementById("nameOfUser") .innerHTML = userNames[num] 
 
     document.getElementById("quote") .innerHTML = text[num] 
